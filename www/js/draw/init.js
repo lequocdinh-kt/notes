@@ -14,5 +14,5 @@ draw.init = async function () {
   // Đặt kích thước canvas theo kích thước cửa sổ
   draw.c.width = window.innerWidth;
   draw.c.height = window.innerHeight;
-  draw.screen = common.SCREEN_ID_HOME; // Default screen
+  draw.screen = common.SCREEN_ID_NOTES;
 };
