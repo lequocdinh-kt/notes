@@ -1,5 +1,4 @@
 // Khởi tạo biến global
-//haha
 window.action = {};
 window.common = {};
 window.draw = {};
