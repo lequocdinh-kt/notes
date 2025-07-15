@@ -51,15 +51,6 @@ var main = async function () {
   if (typeof window.listener.init === "function") {
     window.listener.init();
   }
-
-  if (
-    typeof window.action.switchScreen === "function" &&
-    typeof window.common.SCREEN_ID_HOME !== "undefined"
-  ) {
-    window.action.switchScreen(window.common.SCREEN_ID_HOME);
-  } else {
-    console.error("Failed to switch screen");
-  }
 };
 
 main();

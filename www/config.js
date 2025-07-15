@@ -14,11 +14,13 @@ config = {
     "./js/action/updateScreen.js",
     "./js/action/init.js",
     "./js/action/clickHome.js",
-
+    "./js/action/clickNotes.js",
+    "./js/action/clickMissions.js",
     //draw
     "./js/draw/home.js",
     "./js/draw/init.js",
-
+    "./js/draw/missions.js",
+    "./js/draw/notes.js",
     //listener
     "./js/listener/click.js",
     "./js/listener/init.js",

@@ -13,8 +13,16 @@ listener.click = async function () {
       case common.SCREEN_ID_HOME:
         action.clickHome(x, y);
         break;
+      case common.SCREEN_ID_MISSIONS:
+        action.clickMissions(x, y);
+        break;
+      case common.SCREEN_ID_NOTES:
+        action.clickNotes(x, y);
+        break;
       default:
-        console.log(`Unknown screen clicked at: (${x}, ${y})`);
+        console.log(
+          `Unknown screen clicked at: (${x}, ${y})` + "-" + draw.screen
+        );
     }
   });
 };
