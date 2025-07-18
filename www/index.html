@@ -7,22 +7,28 @@
       content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"
     />
     <title>todolist</title>
-    <link rel="stylesheet" href="./style.css?{{BUILD_TIME_STAMP}}" />
+
+    <!-- CSS trong assets -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    z`
+    <!-- Font Awesome từ CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/animation.css" />
   </head>
   <body>
     <div id="mainScreen" class="slide-in">
       <canvas id="todolist"></canvas>
       <!-- Các nút, searchBox, ... sẽ được JS thêm vào đây -->
     </div>
+
+    <!-- JS trong assets -->
     <script
       type="text/javascript"
       language="JavaScript"
-      src="./index.js?{{BUILD_TIME_STAMP}}"
+      src="index.js"
     ></script>
   </body>
 </html>
